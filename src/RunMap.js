@@ -32,7 +32,7 @@ const secondIcon = L.divIcon({
 });
 
 
-
+//Recenters map to user's location
 function RecenterMap({position}) {
 
 const Map = useMap();
@@ -64,13 +64,14 @@ return (
         />
       )}
     
+      {/* Marker for starting position */}
       {positions.length > 0 && (
         <Marker position={[positions[0].lat, positions[0].lng]} icon={customIcon} >
         <Popup>Start</Popup>
         </Marker>
       )}
 
-        {/* Optional: marker for current position */}
+        {/* Marker for current position */}
       {positions.length > 0 && (
         <Marker position={[positions[positions.length - 1].lat, positions[positions.length - 1].lng]} icon={secondIcon}>
            <Popup>Current Location</Popup>

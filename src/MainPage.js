@@ -60,6 +60,8 @@ function MainPage({ pastRuns, setPastRuns }) {
     }
   }, []); 
 
+
+//Calculating total distance
 useEffect(() => {
 
  if (positions.length < 2) {
@@ -79,6 +81,8 @@ setDistance(total);
 
 }, [positions]);
 
+
+//Creates audio message every min about pace
 const speakPace = () => {
 
 if (!window.speechSynthesis) return;
@@ -150,6 +154,8 @@ else{
 }
  };
 
+
+//Stops run
 const stopRun = () => {
 setIsRunning(false);
 clearInterval(intervalRef.current);
@@ -162,6 +168,7 @@ navigator.geolocation.clearWatch(watchIdRef.current);
 const pace = distance > 0 ? (time.minutes + time.seconds / 60) / distance : 0;
 
 
+//Saves run to backend
 const saveRunToHistory = async () => {
 
 const newRun = {
@@ -184,7 +191,8 @@ date: new Date().toISOString()
 
 };
 
- 
+
+//Resets run
 const resetRun = () => {
 stopRun();
 saveRunToHistory();
@@ -192,6 +200,7 @@ setTime({ minutes: 0, seconds: 0 });
 setDistance(0);
 setPositions([]);
 };
+
 
 const toggleRun = () => {
 if (isRunning) {
@@ -253,6 +262,8 @@ margin: '0 auto',
   <div style={{ border: "1px solid #ccc", padding: "0.5rem", gridColumn: 'span 2',  borderBottomLeftRadius: '1rem', 
     borderBottomRightRadius: '1rem' }}>
   
+
+{/*Input box for target pace */}
 <div style={{ border: "1px solid #ccc", padding: "0.5rem" }}>
   <h1>
   <input
@@ -279,6 +290,7 @@ margin: '0 auto',
 
 </div>
 
+{/*Run summmary */}
 <div style={{ paddingBottom: '4rem'}}>
   {!isRunning && distance > 0 && (
     <RunSummary time={time} distance={distance} pace={pace} />
@@ -296,7 +308,7 @@ margin: '0 auto',
   */}
 
 
-
+{/*Buttons */}
 <div style={{
   position: 'fixed',
   bottom: '1rem',
