@@ -1,0 +1,70 @@
+
+
+.react-calendar__tile {
+
+color: black !important;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+
+color: black;
+}
+
+.react-calendar__navigation__label {
+
+color: black;   
+}
+
+.react-calendar__navigation__arrow {
+
+color: black;   
+}
+
+.react-calendar {
+  width: 100%;
+  border: none;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.react-calendar__tile--now {
+background: none !important;
+color: black !important;
+}
+
+.react-calendar__tile {
+  padding: 0.75rem;
+  font-size: 0.9rem;
+  text-align: center;
+  border-radius: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+
+.highlight {
+  background-color: #4caf50 !important;
+  color: white !important;
+}
+
+/* Hover effect */
+.react-calendar__tile:hover {
+  background-color: #eeeeee;
+  cursor: pointer;
+}
+
+/* Navigation buttons (next/prev) */
+.react-calendar__navigation button {
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  color: #333;
+}
+
+.react-calendar__navigation button:disabled {
+  color: #ccc;
+}
+
+/* Remove double arrows */
+.react-calendar__navigation__prev2-button,
+.react-calendar__navigation__next2-button {
+  display: none;
+}
