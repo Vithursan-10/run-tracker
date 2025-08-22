@@ -1,71 +1,43 @@
-# Getting Started with Create React App
+🏃 Run Tracker App
+📌 Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Run Tracker App is a mobile-friendly running tracker built with React.js (frontend) and Spring Boot (backend). It allows users to track running distance, calculate pace, set target paces, and visualize performance with charts.
 
-## Available Scripts
+I created this project after noticing limitations in existing running apps, such as the fact that you can't have a target pace that you can compare to and not having a way to know your pace without having to constantly check my phone, which breaks my flow during running.
 
-In the project directory, you can run:
+🚀 Features
 
-### `npm start`
+Real-time GPS Tracking using the Geolocation API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Pace Calculation with color-coded feedback vs. target pace
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Audio feedback of pace as well as comparison to target pace every minute
 
-### `npm test`
+Charts & Visualization of distance, pace, and target pace over time
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Data Storage (Spring Boot backend) to save and retrieve past runs
 
-### `npm run build`
+Responsive Design optimized for mobile use
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Frontend: React.js, CSS, Recharts (for graphs)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Backend: Spring Boot, RESTful APIs, Maven
 
-### `npm run eject`
+APIs: Geolocation API, WebSpeech API
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📸 Demo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img width="698" height="843" alt="image" src="https://github.com/user-attachments/assets/f128d7f5-6a18-4479-832f-b2a4e87dd4e1" />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img width="629" height="863" alt="image" src="https://github.com/user-attachments/assets/cf61642d-0ea8-4b65-bca8-4d3059141906" />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img width="1796" height="834" alt="image" src="https://github.com/user-attachments/assets/7eafb741-2cc4-47a0-afcb-a9c7fc72a519" />
 
-## Learn More
+<img width="1825" height="641" alt="image" src="https://github.com/user-attachments/assets/943f8805-64b8-4ff6-88e3-c61537947ad0" />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img width="1809" height="855" alt="image" src="https://github.com/user-attachments/assets/37f083c8-ab5d-42d2-b8d6-34b96eacfc2b" />
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# run-tracker
