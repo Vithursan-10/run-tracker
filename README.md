@@ -29,9 +29,10 @@ APIs: Geolocation API, WebSpeech API
 
 📸 Demo
 
-<img width="698" height="843" alt="image" src="https://github.com/user-attachments/assets/f128d7f5-6a18-4479-832f-b2a4e87dd4e1" />
+<img width="1832" height="855" alt="image" src="https://github.com/user-attachments/assets/0cee152b-0df3-4271-ae9a-8b05fd32f295" />
 
-<img width="629" height="863" alt="image" src="https://github.com/user-attachments/assets/cf61642d-0ea8-4b65-bca8-4d3059141906" />
+<img width="1840" height="847" alt="image" src="https://github.com/user-attachments/assets/2bfa0747-b526-4a67-83ff-b02acf67b4bc" />
+
 
 <img width="1796" height="834" alt="image" src="https://github.com/user-attachments/assets/7eafb741-2cc4-47a0-afcb-a9c7fc72a519" />
 
