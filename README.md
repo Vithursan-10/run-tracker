@@ -49,7 +49,9 @@ APIs: Geolocation API, WebSpeech API
 Prerequisites
 
 Node.js
+
 Java 17+
+
 Maven
 
 Steps
