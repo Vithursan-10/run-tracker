@@ -36,7 +36,8 @@ APIs: Geolocation API, WebSpeech API
 
 <img width="1796" height="834" alt="image" src="https://github.com/user-attachments/assets/7eafb741-2cc4-47a0-afcb-a9c7fc72a519" />
 
-<img width="1825" height="641" alt="image" src="https://github.com/user-attachments/assets/943f8805-64b8-4ff6-88e3-c61537947ad0" />
+<img width="1827" height="656" alt="image" src="https://github.com/user-attachments/assets/3a3bd357-a276-4d71-8145-9d9efd9a6f54" />
+
 
 <img width="1830" height="862" alt="image" src="https://github.com/user-attachments/assets/ce46bc64-80b8-4a8b-a00a-2ebe31d7d66a" />
 
