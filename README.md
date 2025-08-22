@@ -45,12 +45,11 @@ APIs: Geolocation API, WebSpeech API
 <img width="1830" height="862" alt="image" src="https://github.com/user-attachments/assets/ce46bc64-80b8-4a8b-a00a-2ebe31d7d66a" />
 
 📂 Setup
+
 Prerequisites
 
 Node.js
-
 Java 17+
-
 Maven
 
 Steps
