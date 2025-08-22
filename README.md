@@ -5,6 +5,8 @@ The Run Tracker App is a mobile-friendly running tracker built with React.js (fr
 
 I created this project after noticing limitations in existing running apps, such as the fact that you can't have a target pace that you can compare to and not having a way to know your pace without having to constantly check my phone, which breaks my flow during running.
 
+Sample run data aded in code to test features. 
+
 🚀 Features
 
 Real-time GPS Tracking using the Geolocation API
@@ -41,6 +43,36 @@ APIs: Geolocation API, WebSpeech API
 
 
 <img width="1830" height="862" alt="image" src="https://github.com/user-attachments/assets/ce46bc64-80b8-4a8b-a00a-2ebe31d7d66a" />
+
+📂 Setup
+Prerequisites
+
+Node.js
+
+Java 17+
+
+Maven
+
+Steps
+
+Clone the repository
+
+git clone https://github.com/your-username/run-tracker.git
+cd run-tracker
+
+
+Start backend
+
+cd backend
+mvn spring-boot:run
+
+
+Start frontend
+
+cd frontend
+npm install
+npm start
+
 
 
 
